@@ -1,0 +1,167 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+.logo {
+  color: #2e2f42;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 24px;
+  initial-letter: 2%;
+  text-decoration: none;
+}
+.web-header{
+    color: #4D5AE5;
+}
+.studio-header{
+  color:#2E2F42;
+}
+.nav {
+  list-style-type: none;
+}
+.nav :hover,
+.nav :focus {
+  color: #404bbf;
+}
+.nav a{
+  font-family:"Ralewey" sans-serif;
+  text-decoration: none;
+  font-weight:700px;
+  font-size:18px;
+  line-height: 1.3125em;
+  letter-spacing:3%;
+}
+.adres {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  initial-letter: 2%;
+}
+.adres :hover,
+.adres :focus {
+  color: #404bbf;
+}
+.adres a{
+    text-decoration: none;
+    color:#434455;
+}
+.title-h3{
+  color:#2E2F42;
+  font-weight: 500;
+  font-size: 20 px;
+  line-height: 1.5em;
+  initial-letter: 2%;
+}
+.section-one{
+  background-color: #2E2F42;
+  Width: 1440px;
+  Height: 600px;
+  text-align: center;
+
+}
+.h1{
+  color: #FFFFFF;
+  font-weight:700px;
+  font-size:56px;
+  line-height:3.75em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.order-button{
+  background-color: #4D5AE5;
+  color: #ffffff;
+  width:169px ;
+  height:56px ;
+  cursor: pointer;
+}
+.order-button:hover{
+  background-color:#404BBF;
+}
+.order-button:focus{
+  background-color:#404BBF;
+}
+
+.section-two li {
+  list-style-type: none;
+}
+
+.section-two p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5em;
+   initial-letter: 2%;
+}
+.section-our-team{
+  background-color: #F4F4FD;
+}
+.section-our-team h2{
+  color: #2E2F42;
+  font-weight:700px;
+  font-size:36px;
+  line-height:2.5em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.section-our-team li{
+  list-style-type: none;
+}
+.section-our-team img{
+  width:264px;
+  height:260px;
+}
+
+.section-our-team p{
+  font-weight:400;
+  font-size:16px;
+  line-height:1.5em;
+  letter-spacing: 2%;
+}
+.section-four h2{
+  color: #2E2F42;
+  font-weight:700px;
+  font-size:36px;
+  line-height:2.5em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.section-four li{
+  list-style-type: none;
+}
+.section-four img{
+  width: 360px;
+  height: 300px;
+}
+
+.section-four p{
+  font-weight:400;
+  font-size:16px;
+  line-height:1.5em;
+  letter-spacing: 2%;
+}
+.footer {
+  background-color: #2E2F42;
+  color:#ffffff;
+}
+.footer a{
+  font-family:"Ralewey" sans-serif;
+  text-decoration: none;
+  font-weight:700px;
+  font-size:18px;
+  line-height:1.3125em;
+  letter-spacing:3%;
+}
+.web{
+  color: #4D5AE5;
+}
+.studio{
+  color:#F4F4FD;
+}
+.footer p{
+  font-weight:400;
+  font-size:16px;
+  line-height:1.5em;
+  letter-spacing: 2%;
+}

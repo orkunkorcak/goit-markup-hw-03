@@ -13,18 +13,10 @@ body {
 .container-body {
   width: 1158px;
 }
-.nav{
-    display:inline-block;
-    flex-wrap: wrap;
-    width: 1440px;
+header{
+  width: 1440px;
   height: 72px;
-  border: 1px solid red; 
-  }
-.spc{
-  display:inline-block;
-  border: 1px solid red;
-  padding-left: 347px;
-  margin-top: 24px;
+  border:1px solid red;
 }
 
 
@@ -37,8 +29,8 @@ body {
   initial-letter: 2%;
   text-decoration: none;
   display: inline-block;
-  padding-top: 24px;
-  margin-left: 156px;
+  margin-left: 100px;
+  border:1px solid red;
 
 }
 .web-header{
@@ -47,6 +39,16 @@ body {
 .studio-header{
   color:#2E2F42;
 }
+.nav{
+    display:inline-block;
+    flex-wrap: wrap;
+  margin:0; 
+  }
+.spc{
+  display:inline-block;
+  border: 1px solid red; 
+}
+
 .nav-menu {
   list-style-type: none;
   display: flex;
@@ -62,6 +64,7 @@ body {
   font-size:18px;
   line-height: 1.3125em;
   letter-spacing:3%;
+  padding: 10;
 
   
 }

@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  width: 1440px;
+  
   height: 3330px;
 }
 header{
@@ -74,7 +74,7 @@ header{
   initial-letter: 2%;
   display:flex;
   gap:10px;
-  
+  margin-left: 350px;
 }
 .adres :hover,
 .adres :focus {
@@ -96,15 +96,15 @@ header{
   Width: 1440px;
   Height: 600px;
   text-align: center;
-
+  margin: 0 auto;
 }
 .h1{
   color: #FFFFFF;
   font-weight:700px;
   font-size:56px;
-  line-height:3.75em;
+  line-height:1em;
   letter-spacing: 2%;
-  text-align: center;
+  margin-top: 180px;
 }
 .order-button{
   background-color: #4D5AE5;
@@ -112,6 +112,7 @@ header{
   width:169px ;
   height:56px ;
   cursor: pointer;
+  margin-left: 500px;
 }
 .order-button:hover{
   background-color:#404BBF;
@@ -119,10 +120,26 @@ header{
 .order-button:focus{
   background-color:#404BBF;
 }
+.order{
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.section-two-container{
+  max-width: 1158px;
+  margin: 0 auto;
+}
+.section-two-cardset{
+  display: flex;
+  gap: 8px;
+}
 
 .section-two li {
   list-style-type: none;
 }
+
 
 .section-two p{
    font-weight: 400;

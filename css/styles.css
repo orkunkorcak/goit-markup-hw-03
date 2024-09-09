@@ -121,9 +121,9 @@ header{
   padding: 120px 0;
   
 }
-.section-two-container{
-  max-width: 1158px;
+.section-two-div{
   margin: 0 auto;
+  padding: 120px 0;
 }
 .section-two-cardset{
   display: flex;
@@ -144,16 +144,16 @@ header{
 .section-our-team{
   background-color: #F4F4FD;
 }
-.our-team-container{
-  max-width: 1158px;
-  margin-left: 156px;
-  
+.our-team-div{
+height: 732px;
+padding: 120px 0;
 }
 
 .our-team-cardset{
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
+  text-align: center;
 }
 .section-our-team h2{
   color: #2E2F42;
@@ -165,6 +165,7 @@ header{
 }
 .section-our-team li{
   list-style-type: none;
+  background-color: #ffffff;
 }
 .section-our-team img{
   width:264px;
@@ -177,9 +178,7 @@ header{
   line-height:1.5em;
   letter-spacing: 2%;
 }
-.our-portofilo-container{
-  width: 1158px;
-}
+
 .our-portofilo-cardset{
   display: flex;
   flex-wrap: wrap;

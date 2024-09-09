@@ -9,16 +9,16 @@ body {
   color: #434455;
   height: 3330px;
 }
-header{
-  width: 1440px;
-  height: 72px;
-  border-bottom:1px solid #e7e9fc;
-}
 .container {
-
   max-width: 1158px;
   margin: 0 auto;
 }
+header{
+  height: 72px;
+  border-bottom:1px solid #e7e9fc;
+}
+
+
 .logo {
   color: #2e2f42;
   list-style-type: none;
@@ -91,7 +91,6 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  Width: 1440px;
   Height: 600px;
   text-align: center;
   margin: 0 auto;
@@ -102,7 +101,6 @@ header{
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
-  margin-top: 180px;
 }
 .order-button{
   background-color: #4D5AE5;
@@ -110,7 +108,6 @@ header{
   width:169px ;
   height:56px ;
   cursor: pointer;
-  margin-left: 500px;
 }
 .order-button:hover{
   background-color:#404BBF;
@@ -119,10 +116,9 @@ header{
   background-color:#404BBF;
 }
 .order{
-  width: 1158px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
   
 }
 .section-two-container{

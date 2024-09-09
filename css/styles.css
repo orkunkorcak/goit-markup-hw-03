@@ -7,7 +7,6 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  width: 1440px;
   height: 3330px;
 }
 header{
@@ -19,7 +18,6 @@ header{
 
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 16px;
 }
 .logo {
   color: #2e2f42;

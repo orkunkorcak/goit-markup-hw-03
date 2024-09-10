@@ -3,6 +3,17 @@
 ::after {
     box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.section{
+  padding: 120px 0;
+}
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -11,13 +22,15 @@ body {
 }
 .container {
   max-width: 1158px;
+  align-items: center;
   margin: 0 auto;
+  justify-content: space-between;
 }
 header{
   height: 72px;
   border-bottom:1px solid #e7e9fc;
+  gap: 30px;
 }
-
 
 .logo {
   color: #2e2f42;
@@ -27,8 +40,7 @@ header{
   line-height: 24px;
   initial-letter: 2%;
   text-decoration: none;
-  display: flex;
-  margin-top: 17px;
+  
 }
 .web-header{
     color: #4D5AE5;
@@ -101,6 +113,8 @@ header{
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 .order-button{
   background-color: #4D5AE5;
@@ -108,18 +122,13 @@ header{
   width:169px ;
   height:56px ;
   cursor: pointer;
+  flex-direction: column;
 }
 .order-button:hover{
   background-color:#404BBF;
 }
 .order-button:focus{
   background-color:#404BBF;
-}
-.order{
-  margin: 0 auto;
-  align-items: center;
-  padding: 120px 0;
-  
 }
 .section-two-div{
   margin: 0 auto;
@@ -197,7 +206,6 @@ padding: 120px 0;
 }
 .section-four li{
   list-style-type: none;
-  border-bottom: 1px solid #e7e9fc;
 }
 .section-four img{
   width: 360px;
@@ -210,10 +218,19 @@ padding: 120px 0;
   line-height:1.5em;
   letter-spacing: 2%;
 }
+.our-border{
+   border-width: 0px 1px 1px 1px;
+  border-color: #e7e9fc;
+  border-style: solid;
+  height: 120px;
+  padding: 20px;
+  }
+
 .footer {
   background-color: #2E2F42;
   color:#ffffff;
   height: 312px;
+  padding: 120px;
   }
 .footer a{
   font-family:"Ralewey" sans-serif;
@@ -222,10 +239,6 @@ padding: 120px 0;
   font-size:18px;
   line-height:1.3125em;
   letter-spacing:3%;
-}
-.foter{
-  padding: 120px 120px;
-  align-items: center;
 }
 .web{
   color: #4D5AE5;

@@ -34,6 +34,12 @@ header{
   border-bottom:1px solid #e7e9fc;
   gap: 30px;
 }
+.container-header{
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .logo {
   color: #2e2f42;
@@ -43,6 +49,7 @@ header{
   line-height: 24px;
   initial-letter: 2%;
   text-decoration: none;
+  margin-right: 76px;
   
 }
 .web-header{
@@ -52,13 +59,15 @@ header{
   color:#2E2F42;
 }
 .nav{
-    display:flex; 
+    display:flex;
+    align-items: center; 
   }
 
 
 .nav-menu {
   list-style-type: none;
   display: flex;
+  gap: 40px;
   
 }
 .nav-menu :hover,
@@ -72,7 +81,7 @@ header{
   font-size:18px;
   line-height: 1.3125em;
   letter-spacing:3%;
-  padding: 10px;
+  padding: 24px;
 
   
 }
@@ -86,8 +95,7 @@ header{
   line-height: 1.5em;
   initial-letter: 2%;
   display:flex;
-  gap:10px;
-  margin-left: 350px;
+  gap:40px;
 }
 .adres :hover,
 .adres :focus {

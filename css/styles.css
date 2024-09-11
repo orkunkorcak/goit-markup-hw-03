@@ -27,6 +27,7 @@ body {
   max-width: 1158px;
   align-items: center;
   margin: 0 auto;
+  padding: 0 15px;
   justify-content: space-between;
 }
 header{
@@ -39,9 +40,11 @@ header{
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo {
+.logo { 
   color: #2e2f42;
   list-style-type: none;
   font-weight: 500;
@@ -70,6 +73,9 @@ header{
   gap: 40px;
   
 }
+.nav-link{
+  padding: 24px 0;
+}
 .nav-menu :hover,
 .nav-menu :focus {
   color: #404bbf;
@@ -81,13 +87,8 @@ header{
   font-size:18px;
   line-height: 1.3125em;
   letter-spacing:3%;
-  padding: 24px;
+}
 
-  
-}
-.adress {
-  display: flex;
-}
 .adres {
   list-style-type: none;
   font-weight: 400;
@@ -96,6 +97,7 @@ header{
   initial-letter: 2%;
   display:flex;
   gap:40px;
+  margin-left: 350px;
 }
 .adres :hover,
 .adres :focus {

@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 img{
   display: block;
 }
-.section{
+section{
   padding: 120px 0;
 }
 body {
@@ -120,23 +120,28 @@ header{
   Height: 600px;
   text-align: center;
   margin: 0 auto;
+  padding: 118px 0;
 }
-.h1{
+.h1-order{
+  max-width: 496px;
   color: #FFFFFF;
   font-weight:700px;
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
-  flex-direction: column;
   padding-bottom: 30px;
 }
 .order-button{
+  display: block;
+  margin: 0 auto;
   background-color: #4D5AE5;
   color: #ffffff;
-  width:169px ;
+  min-width:169px ;
   height:56px ;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  flex-direction: column;
+  
 }
 .order-button:hover{
   background-color:#404BBF;

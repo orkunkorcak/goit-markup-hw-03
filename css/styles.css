@@ -28,7 +28,6 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: space-between;
   display: flex;
 }
 header{
@@ -129,7 +128,7 @@ header{
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
-  padding-bottom: 30px;
+  flex-direction: ;
 }
 .order-button{
   display: block;

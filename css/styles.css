@@ -113,6 +113,7 @@ header{
   font-size: 20 px;
   line-height: 1.5em;
   initial-letter: 2%;
+  margin-bottom: 8px;
 }
 .section-one{
   background-color: #2E2F42;
@@ -128,7 +129,6 @@ header{
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
-  flex-direction: ;
 }
 .order-button{
   display: block;
@@ -154,12 +154,9 @@ header{
 }
 .section-two-cardset{
   display: flex;
-  gap: 8px;
+  gap: 24px;
 }
 
-.section-two li {
-  list-style-type: none;
-}
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -168,11 +165,14 @@ header{
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%)
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-
+.cardset-two-item{
+  list-style-type: none;
+ width: calc((100% - 72px) / 4); 
+}
 
 .section-two p{
    font-weight: 400;

@@ -107,7 +107,7 @@ header{
     text-decoration: none;
     color:#434455;
 }
-.title-h3{
+.title-htree{
   color:#2E2F42;
   font-weight: 500;
   font-size: 20 px;
@@ -190,7 +190,7 @@ header{
 
 .our-team-cardset{
   display: flex;
-  gap: 10px;
+  gap: 24px;
   align-items: center;
   text-align: center;
 }
@@ -206,6 +206,7 @@ header{
   width: calc((100% - 72px) / 4);
   list-style-type: none;
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 .ourteam-info{
 text-align: center;
@@ -228,7 +229,9 @@ text-align: center;
 .our-portofilo-cardset{
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;  
+  gap: 15px;
+  column-gap: 24px;
+  row-gap: 48px;  
 }
 .section-four-div{
   padding: 120px 0;
@@ -256,26 +259,29 @@ text-align: center;
   letter-spacing: 2%;
 }
 .our-border{
-   border-width: 0px 1px 1px 1px;
+   border: 1px;
   border-color: #e7e9fc;
   border-style: solid;
+  border-top: none;
   height: 120px;
-  padding: 20px;
+  padding: 32px 16px;
   }
 
 .footer {
   background-color: #2E2F42;
   color:#ffffff;
   height: 312px;
-  padding: 120px;
+  padding: 100px 0;
   }
-.footer a{
+.footer-logo{
   font-family:"Ralewey" sans-serif;
   text-decoration: none;
   font-weight:700px;
   font-size:18px;
   line-height:1.3125em;
   letter-spacing:3%;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .web{
   color: #4D5AE5;
@@ -283,9 +289,10 @@ text-align: center;
 .studio{
   color:#F4F4FD;
 }
-.footer p{
+.footer-text{
   font-weight:400;
   font-size:16px;
   line-height:1.5em;
   letter-spacing: 2%;
+  max-width: 264px;
 }

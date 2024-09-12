@@ -28,7 +28,7 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
+  
 }
 header{
   height: 72px;
@@ -114,6 +114,7 @@ header{
   line-height: 1.5em;
   initial-letter: 2%;
   margin-bottom: 8px;
+  text-align: center;
 }
 .section-one{
   background-color: #2E2F42;
@@ -183,9 +184,8 @@ header{
 .section-our-team{
   background-color: #F4F4FD;
 }
-.our-team-div{
-height: 732px;
-padding: 120px 0;
+.title-h2{
+  margin-bottom: 72px;
 }
 
 .our-team-cardset{
@@ -202,13 +202,20 @@ padding: 120px 0;
   letter-spacing: 2%;
   text-align: center;
 }
-.section-our-team li{
+.ourteam-item{
+  width: calc((100% - 72px) / 4);
   list-style-type: none;
   background-color: #ffffff;
+}
+.ourteam-info{
+text-align: center;
 }
 .section-our-team img{
   width:264px;
   height:260px;
+}
+.satff{
+  padding: 32px 0;
 }
 
 .section-our-team p{

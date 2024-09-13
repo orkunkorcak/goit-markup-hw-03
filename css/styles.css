@@ -24,7 +24,8 @@ body {
   height: 3330px;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
+  max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
@@ -114,7 +115,7 @@ header{
   line-height: 1.5em;
   initial-letter: 2%;
   margin-bottom: 8px;
-  text-align: center;
+  
 }
 .section-one{
   background-color: #2E2F42;
@@ -122,6 +123,7 @@ header{
   text-align: center;
   margin: 0 auto;
   padding: 188px 0;
+  
 }
 .order-one{
   max-width: 496px;
@@ -130,6 +132,8 @@ header{
   font-size:56px;
   line-height:1em;
   letter-spacing: 2%;
+  padding-bottom: 48px;
+  margin:0 auto;
 }
 .order-button{
   display: block;
@@ -141,7 +145,6 @@ header{
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 .order-button:hover{
   background-color:#404BBF;
